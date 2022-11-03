@@ -1,0 +1,10 @@
+@mixin titulos {
+    font-family: $fuentetexto;
+    font-size: $tamanotitulo;
+    font-weight: bold;    
+}
+
+@mixin txt {
+    font-family: $fuentetexto;
+    font-size: $tamanotxt;
+}

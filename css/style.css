@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap");
 header {
   background-image: url(../aassets/Image/imagen_header1.jpg);
   height: 100vh;
@@ -8,9 +8,31 @@ header {
   background-size: cover;
   text-align: end;
 }
+header a {
+  font-family: "Roboto", sans-serif;
+}
 
 main {
   background-color: whitesmoke;
+}
+main .display-6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+main .card-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+main .card-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+main #titcarrusel {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 main #imgfotos {
   width: 100%;
@@ -19,13 +41,6 @@ main #imgfotos {
 }
 main #imgfotos:hover {
   border: 5px solid whitesmoke;
-}
-main .card-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-}
-main .card-text {
-  font-family: "Roboto", sans-serif;
 }
 
 .btn {

@@ -1,5 +1,17 @@
 main {
-    background-color: whitesmoke ;
+    background-color: whitesmoke;
+    .display-6 {
+        @include titulos;
+    }
+    .card-title {
+        @include titulos;
+    }
+    .card-text {
+        @include txt;
+    }
+    #titcarrusel {
+        @include titulos;
+    }
     #imgfotos {
         width: 100%;
         padding: 10px;
@@ -8,11 +20,5 @@ main {
             border: 5px solid whitesmoke;       
         }
     }
-    .card-title {
-        font-family: $fuentetexto;
-        font-weight: bold;
-    }
-    .card-text {
-        font-family: $fuentetexto;
-    }
+    
 }
