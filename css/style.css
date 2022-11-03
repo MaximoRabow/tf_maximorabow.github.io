@@ -34,6 +34,29 @@ main #titcarrusel {
   font-size: 1.2rem;
   font-weight: bold;
 }
+main #textcarrusel {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+main .btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-size: 10px;
+}
+main #titgaleria {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+main #txtgaleria {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+main #stgaleria {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-size: 12px;
+}
 main #imgfotos {
   width: 100%;
   padding: 10px;

@@ -12,6 +12,23 @@ main {
     #titcarrusel {
         @include titulos;
     }
+    #textcarrusel {
+        @include txt;
+    }
+    .btn {
+        @include txt;
+        font-size: 10px; 
+    }
+    #titgaleria {
+        @include titulos;
+    }
+    #txtgaleria {
+        @include txt;
+    }
+    #stgaleria {
+        @include txt;
+        font-size: 12px;
+    }
     #imgfotos {
         width: 100%;
         padding: 10px;

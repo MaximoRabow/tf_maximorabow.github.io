@@ -18,19 +18,19 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Características</a>
+                    <a class="nav-link active" aria-current="page" href="#">Características</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Precios</a>
+                    <a class="nav-link active" aria-current="page" href="#">Precios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">Deshabilitado</a>
+                    <a class="nav-link active" aria-current="page" href="#">Deshabilitado</a>
                   </li>
                 </ul>
               </div>
@@ -137,7 +137,7 @@
             <div class="col-xs-12 col-sm-12 col-md-4 my-3 text-center">
                 <h3 id="titcarrusel">NYC SEGUN LA ESTACIÓN...</h3>
                 <p id="textcarrusel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptates expedita cum quas, cumque sequi beatae molestias provident quisquam a minus corrupti nam veritatis, delectus iusto dicta porro voluptatem dolor.</p>
-                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-secondary">NOTA COMPLETA</button>
             </div>
             
 
@@ -146,36 +146,36 @@
         <!--Galeria de fotos-->
 
         <section class="container-fluid">
-            <div class="text-center pt-3">
-                <h3>NEW YORK EN EL CINE...</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sequi deleniti non. Officia, inventore et non rem excepturi laborum incidunt!</p>
+            <div class="text-center pt-1">
+                <h3 id="titgaleria">NEW YORK EN EL CINE...</h3>
+                <p id="txtgaleria">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sequi deleniti non. Officia, inventore et non rem excepturi laborum incidunt!</p>
 
             </div>
 
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./aassets/galeria/will-smith-i-am-legend-empty-nyc.jpg" alt="" id="imgfotos">
-                    <h5 class="text-center pt-1">SOY LEYENDA</h5>
+                    <h5 class="text-center" id="stgaleria">SOY LEYENDA</h5>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./aassets/galeria/nueva-york-oficina-cazafantasmas-1.jpg" alt="" id="imgfotos">
-                    <h5 class="text-center pt-1">CAZA FANTASMAS</h5>
+                    <h5 class="text-center" id="stgaleria">CAZA FANTASMAS</h5>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./aassets/galeria/lugares-de-pelicula-en-nueva-york30-1.jpg" alt="" id="imgfotos">
-                    <h5 class="text-center pt-1">SPIDERMAN</h5>
+                    <h5 class="text-center" id="stgaleria">SPIDERMAN</h5>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./aassets/galeria/lugares-de-pelicula-en-nueva-york-eeuu-america.jpg" alt="" id="imgfotos">
-                    <h5 class="text-center pt-1">LA SEMILLA DEL DIABLO</h5>
+                    <h5 class="text-center" id="stgaleria">LA SEMILLA DEL DIABLO</h5>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./aassets/galeria/lugares-de-pelicula-en-nueva-york-america-1.jpg" alt="" id="imgfotos">
-                    <h5 class="text-center pt-1">LOS PITUFOS</h5>
+                    <h5 class="text-center" id="stgaleria">LOS PITUFOS</h5>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./aassets/galeria/lugares-de-pelicula-en-nueva-york-5.jpg" alt="" id="imgfotos">
-                    <h5 class="text-center pt-1">EL DIA DE MAÑANA</h5>
+                    <h5 class="text-center" id="stgaleria">EL DIA DE MAÑANA</h5>
                 </div>
 
             </div>
@@ -189,9 +189,11 @@
 
     <footer class="container-fluid">
         <div class="row p-3 bg-dark text-secondary">
+            <!--titulo footer-->
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <p class="h3 text-center">I LOVE NYC</p>
             </div>
+            <!--secciones footer-->
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <p class="h5 text-center">columna</p>
             </div>
@@ -211,14 +213,15 @@
                 </div>
 
             </div>
+            <!--boton contacto desplegable-->
             <div class="col-sm-12 col-md-6 col-lg-3 text-center">
                 <button type="button" class="btn btn-transparent" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contactanos</button>
 
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Nuevo mensaje</h5>
+                    <div class="modal-content bg-dark">
+                    <div class="modal-header color-white">
+                        <h5 class="modal-title text-white" id="exampleModalLabel">Nuevo mensaje</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
