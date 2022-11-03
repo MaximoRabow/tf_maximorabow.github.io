@@ -1,0 +1,26 @@
+header {
+  background-image: url(../aassets/Image/imagen_header1.jpg);
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: end;
+}
+
+main {
+  background-color: whitesmoke;
+}
+main #imgfotos {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+main #imgfotos:hover {
+  opacity: 50%;
+}
+
+.btn {
+  color: white !important;
+  border: none !important;
+}/*# sourceMappingURL=style.css.map */
