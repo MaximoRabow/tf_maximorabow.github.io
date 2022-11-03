@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 header {
   background-image: url(../aassets/Image/imagen_header1.jpg);
   height: 100vh;
@@ -18,6 +19,13 @@ main #imgfotos {
 }
 main #imgfotos:hover {
   border: 5px solid whitesmoke;
+}
+main .card-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+main .card-text {
+  font-family: "Roboto", sans-serif;
 }
 
 .btn {

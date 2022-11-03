@@ -8,5 +8,11 @@ main {
             border: 5px solid whitesmoke;       
         }
     }
-    
+    .card-title {
+        font-family: $fuentetexto;
+        font-weight: bold;
+    }
+    .card-text {
+        font-family: $fuentetexto;
+    }
 }
