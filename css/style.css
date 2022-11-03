@@ -17,7 +17,7 @@ main #imgfotos {
   border-radius: 20px;
 }
 main #imgfotos:hover {
-  opacity: 50%;
+  border: 5px solid whitesmoke;
 }
 
 .btn {
