@@ -8,3 +8,18 @@
     font-family: $fuentetexto;
     font-size: $tamanotxt;
 }
+
+@mixin h1page {
+    font-family: $fuentetexto;
+    font-size: $tamanoh1;
+    font-weight: bold; 
+    padding-top: 15px;
+}
+@mixin h5page {
+    font-family: $fuentetexto;
+    font-size: $tamanotitulo;
+}
+@mixin lista {
+    font-family: $fuentetexto;
+    font-size: $tamanotitulo;
+}

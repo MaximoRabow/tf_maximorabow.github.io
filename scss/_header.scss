@@ -6,6 +6,9 @@ header {
     background-attachment: fixed;
     background-size: cover;
     text-align: end;
+    #logo {
+        width: 80px;
+    }
     a {
         font-family: $fuentetexto;
     }

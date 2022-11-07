@@ -8,6 +8,9 @@ header {
   background-size: cover;
   text-align: end;
 }
+header #logo {
+  width: 80px;
+}
 header a {
   font-family: "Roboto", sans-serif;
 }
@@ -17,12 +20,12 @@ main {
 }
 main .display-6 {
   font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
 }
 main .card-title {
   font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
 }
 main .card-text {
@@ -31,7 +34,7 @@ main .card-text {
 }
 main #titcarrusel {
   font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
 }
 main #textcarrusel {
@@ -45,7 +48,7 @@ main .btn {
 }
 main #titgaleria {
   font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
 }
 main #txtgaleria {
@@ -64,6 +67,35 @@ main #imgfotos {
 }
 main #imgfotos:hover {
   border: 5px solid whitesmoke;
+}
+main #h1page {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 15px;
+}
+main #imgcuatro {
+  width: 90%;
+  border-radius: 20px;
+}
+main #tith2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+main #tith5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+main #parrafo {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+main #lista {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-size: 12px;
+  color: gray;
 }
 
 .btn {

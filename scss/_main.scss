@@ -35,7 +35,30 @@ main {
         border-radius: 20px;
         &:hover {
             border: 5px solid whitesmoke;       
-        }
+        }   
     }
-    
+    #h1page {
+        @include h1page;
+    }
+    #imgcuatro {
+        width: 90%;
+        border-radius: 20px;
+    }
+    #tith2 {
+        @include titulos;
+    }
+    #tith5 {
+       @include h5page; 
+    }
+    #parrafo {
+        @include txt;
+    }
+    #lista {
+        @include lista;
+        font-size: 12px;
+        color: gray;
+    }
 }
+
+    
+
