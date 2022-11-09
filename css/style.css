@@ -175,27 +175,23 @@ main #lista {
     margin-top: -35px !important;
   }
   #dropdown {
-    padding-top: 70% !important;
+    padding-top: 130% !important;
   }
 }
 @media (min-width: 375px) {
-  header {
-    background-image: url(../aassets/Image/imagen_header1_mini.jpg);
-    height: 100vh;
-  }
   #dropdown {
-    padding-top: 150% !important;
+    padding-top: 120% !important;
   }
 }
 @media (min-width: 425px) {
   #dropdown {
-    padding-top: 140% !important;
+    padding-top: 110% !important;
   }
 }
 @media (min-width: 768px) {
   #logo {
     width: 150px !important;
-    margin-top: -50px !important;
+    margin-top: -40px !important;
   }
   .navbar-toggler {
     margin-top: -55px !important;
@@ -207,7 +203,7 @@ main #lista {
 @media (min-width: 992px) {
   #logo {
     width: 150px !important;
-    margin-top: -50px !important;
+    margin-top: -30px !important;
   }
   .navbar-nav {
     margin-top: -60px !important;
