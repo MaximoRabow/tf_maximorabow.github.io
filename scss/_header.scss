@@ -11,6 +11,15 @@ header {
     }
     a {
         font-family: $fuentetexto;
+        &:hover {
+            opacity: 50%;
+        }
+    }
+    #dropdown {
+        padding-top: 200%;
+    }
+    .material-symbols-sharp {
+        color: white;
     }
     }
     

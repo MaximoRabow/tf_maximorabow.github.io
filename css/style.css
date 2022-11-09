@@ -14,6 +14,15 @@ header #logo {
 header a {
   font-family: "Roboto", sans-serif;
 }
+header a:hover {
+  opacity: 50%;
+}
+header #dropdown {
+  padding-top: 200%;
+}
+header .material-symbols-sharp {
+  color: white;
+}
 
 .body {
   background-color: whitesmoke;
@@ -157,7 +166,33 @@ main #lista {
   font-size: 12px;
 }
 
+@media (min-width: 320px) {
+  #logo {
+    width: 90px !important;
+    margin-top: -30px !important;
+  }
+  .navbar-toggler {
+    margin-top: -35px !important;
+  }
+}
+@media (min-width: 768px) {
+  #logo {
+    width: 150px !important;
+    margin-top: -50px !important;
+  }
+  .navbar-toggler {
+    margin-top: -55px !important;
+  }
+}
 @media (min-width: 992px) {
+  #logo {
+    width: 150px !important;
+    margin-top: -50px !important;
+  }
+  .navbar-nav {
+    margin-top: -60px !important;
+    margin-right: 10px !important;
+  }
   #titcarrusel {
     font-size: 35px !important;
     padding-top: 60px;
@@ -179,6 +214,14 @@ main #lista {
   }
 }
 @media (min-width: 1400px) {
+  #logo {
+    width: 200px !important;
+    margin-top: -70px !important;
+  }
+  .navbar-nav {
+    margin-top: -80px !important;
+    margin-right: 10px !important;
+  }
   .display-6 {
     font-size: 35px !important;
   }
@@ -199,6 +242,14 @@ main #lista {
   }
 }
 @media (min-width: 2400px) {
+  #logo {
+    width: 250px !important;
+    margin-top: -80px !important;
+  }
+  .navbar-nav {
+    margin-top: -80px !important;
+    margin-right: 20px !important;
+  }
   #titcarrusel {
     font-size: 80px !important;
     padding-top: 300px;
