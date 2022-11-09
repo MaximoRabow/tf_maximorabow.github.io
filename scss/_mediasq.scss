@@ -1,5 +1,9 @@
 
 @media (min-width: 320px) {
+    header {
+        background-position: top;
+        background-size: contain;
+    }
     #logo {
         width: 90px !important;
         margin-top: -30px !important;
@@ -8,7 +12,16 @@
         margin-top: -35px !important;
     }
 }
-
+@media (min-width: 375px) {
+    #dropdown {
+        padding-top: 160% !important;
+    }
+}
+@media (min-width: 425px) {
+    #dropdown {
+        padding-top: 140% !important;
+    }
+}
 
 @media (min-width: 768px) {
     #logo {
@@ -17,6 +30,9 @@
     }
     .navbar-toggler {
         margin-top: -55px !important;
+    }
+    #dropdown {
+        padding-top: 70% !important;
     }
 }
 
@@ -30,6 +46,9 @@
         margin-top: -60px !important;
         margin-right: 10px !important;
     }
+    #dropdown {
+        padding-top: 55% !important;
+    }
     #titcarrusel {
         font-size: 35px !important;
         padding-top: 60px;
@@ -40,6 +59,9 @@
 }
 
 @media (min-width: 1200px) {
+    #dropdown {
+        padding-top: 35% !important;
+    }
     #titcarrusel {
         font-size: 55px !important;
         padding-top: 120px;

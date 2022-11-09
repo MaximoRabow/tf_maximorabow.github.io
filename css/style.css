@@ -18,7 +18,7 @@ header a:hover {
   opacity: 50%;
 }
 header #dropdown {
-  padding-top: 200%;
+  padding-top: 180%;
 }
 header .material-symbols-sharp {
   color: white;
@@ -167,12 +167,26 @@ main #lista {
 }
 
 @media (min-width: 320px) {
+  header {
+    background-position: top;
+    background-size: contain;
+  }
   #logo {
     width: 90px !important;
     margin-top: -30px !important;
   }
   .navbar-toggler {
     margin-top: -35px !important;
+  }
+}
+@media (min-width: 375px) {
+  #dropdown {
+    padding-top: 160% !important;
+  }
+}
+@media (min-width: 425px) {
+  #dropdown {
+    padding-top: 140% !important;
   }
 }
 @media (min-width: 768px) {
@@ -182,6 +196,9 @@ main #lista {
   }
   .navbar-toggler {
     margin-top: -55px !important;
+  }
+  #dropdown {
+    padding-top: 70% !important;
   }
 }
 @media (min-width: 992px) {
@@ -193,6 +210,9 @@ main #lista {
     margin-top: -60px !important;
     margin-right: 10px !important;
   }
+  #dropdown {
+    padding-top: 55% !important;
+  }
   #titcarrusel {
     font-size: 35px !important;
     padding-top: 60px;
@@ -202,6 +222,9 @@ main #lista {
   }
 }
 @media (min-width: 1200px) {
+  #dropdown {
+    padding-top: 35% !important;
+  }
   #titcarrusel {
     font-size: 55px !important;
     padding-top: 120px;
