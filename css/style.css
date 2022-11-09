@@ -78,12 +78,13 @@ main #imgcuatro {
   width: 90%;
   border-radius: 20px;
 }
-main #tith2 {
+main .tith2 {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
+  margin-top: 15px;
 }
-main #tith5 {
+main .tith5 {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
 }

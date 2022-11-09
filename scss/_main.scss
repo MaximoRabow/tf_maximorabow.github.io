@@ -44,10 +44,11 @@ main {
         width: 90%;
         border-radius: 20px;
     }
-    #tith2 {
+    .tith2 {
         @include titulos;
+        margin-top: 15px
     }
-    #tith5 {
+    .tith5 {
        @include h5page; 
     }
     .parrafo {
