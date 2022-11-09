@@ -1,10 +1,5 @@
 
-@media (min-width: 320px) {
-    header {
-        background-image: url(../aassets/Image/imagen_header1_mini.jpg);
-        background-position: top;
-        background-size: contain;
-    }
+@media (min-width: 320px) {    
     #logo {
         width: 90px !important;
         margin-top: -30px !important;
@@ -13,7 +8,7 @@
         margin-top: -35px !important;
     }
     #dropdown {
-        display: none !important;
+        padding-top: 70% !important;
 }
 }
 @media (min-width: 375px) {
