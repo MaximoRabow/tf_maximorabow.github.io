@@ -104,6 +104,10 @@ main #lista {
   border: none !important;
 }
 
+.copy {
+  font-size: 12px;
+}
+
 @media (min-width: 992px) {
   #titcarrusel {
     font-size: 35px !important;
