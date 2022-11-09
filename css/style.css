@@ -168,6 +168,7 @@ main #lista {
 
 @media (min-width: 320px) {
   header {
+    background-image: url(../aassets/Image/imagen_header1_mini.jpg);
     background-position: top;
     background-size: contain;
   }
@@ -177,6 +178,9 @@ main #lista {
   }
   .navbar-toggler {
     margin-top: -35px !important;
+  }
+  #dropdown {
+    display: none !important;
   }
 }
 @media (min-width: 375px) {
