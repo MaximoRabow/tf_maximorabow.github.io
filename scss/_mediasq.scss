@@ -12,8 +12,11 @@
 }
 }
 @media (min-width: 375px) {
+    header {
+        background-image: url(../aassets/Image/imagen_header1_mini.jpg);
+        height: 100vh;
     #dropdown {
-        padding-top: 160% !important;
+        padding-top: 150% !important;
     }
 }
 @media (min-width: 425px) {

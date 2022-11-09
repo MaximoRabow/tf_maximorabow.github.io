@@ -180,7 +180,7 @@ main #lista {
 }
 @media (min-width: 375px) {
   #dropdown {
-    padding-top: 160% !important;
+    padding-top: 150% !important;
   }
 }
 @media (min-width: 425px) {
