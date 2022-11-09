@@ -1,3 +1,6 @@
+.body {
+    background-color: whitesmoke;
+}
 main {
     background-color: whitesmoke;
     .display-6 {
@@ -29,7 +32,27 @@ main {
         @include txt;
         font-size: 10px;
     }
-    #imgfotos {
+    #stgaleria1 {
+        @include txt;
+        font-size: 10px;
+    }
+    #stgaleria2 {
+        @include txt;
+        font-size: 10px;
+    }
+    #stgaleria3 {
+        @include txt;
+        font-size: 10px;
+    }
+    #stgaleria4 {
+        @include txt;
+        font-size: 10px;
+    }
+    #stgaleria5 {
+        @include txt;
+        font-size: 10px;
+    }
+    .imgfotos {
         width: 100%;
         padding: 10px;
         border-radius: 20px;
@@ -37,7 +60,16 @@ main {
             border: 5px solid whitesmoke;       
         }   
     }
-    #h1page {
+    #h1pagebarrio {
+        @include h1page;
+    }
+    #h1pagecuatro {
+        @include h1page;
+    }
+    #h1pagesiete {
+        @include h1page;
+    }
+    #h1pageexcur {
         @include h1page;
     }
     #imgcuatro {
@@ -53,6 +85,8 @@ main {
     }
     .parrafo {
         @include txt;
+        padding-left: 10%;
+        padding-right: 10%;
     }
     #lista {
         @include lista;

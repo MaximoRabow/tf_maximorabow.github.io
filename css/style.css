@@ -15,6 +15,10 @@ header a {
   font-family: "Roboto", sans-serif;
 }
 
+.body {
+  background-color: whitesmoke;
+}
+
 main {
   background-color: whitesmoke;
 }
@@ -60,15 +64,58 @@ main #stgaleria {
   font-size: 1rem;
   font-size: 10px;
 }
-main #imgfotos {
+main #stgaleria1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-size: 10px;
+}
+main #stgaleria2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-size: 10px;
+}
+main #stgaleria3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-size: 10px;
+}
+main #stgaleria4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-size: 10px;
+}
+main #stgaleria5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-size: 10px;
+}
+main .imgfotos {
   width: 100%;
   padding: 10px;
   border-radius: 20px;
 }
-main #imgfotos:hover {
+main .imgfotos:hover {
   border: 5px solid whitesmoke;
 }
-main #h1page {
+main #h1pagebarrio {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 15px;
+}
+main #h1pagecuatro {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 15px;
+}
+main #h1pagesiete {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 15px;
+}
+main #h1pageexcur {
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
@@ -91,6 +138,8 @@ main .tith5 {
 main .parrafo {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 main #lista {
   font-family: "Roboto", sans-serif;
@@ -127,5 +176,34 @@ main #lista {
   }
   .btn {
     font-size: 20px;
+  }
+}
+@media (min-width: 1400px) {
+  .display-6 {
+    font-size: 35px !important;
+  }
+  #h1pagebarrio {
+    font-size: 35px !important;
+  }
+  #h1pagecuatro {
+    font-size: 35px !important;
+  }
+  #h1pagesiete {
+    font-size: 35px !important;
+  }
+  #h1pageexcur {
+    font-size: 35px !important;
+  }
+  .tith2 {
+    font-size: 25px !important;
+  }
+}
+@media (min-width: 2400px) {
+  #titcarrusel {
+    font-size: 80px !important;
+    padding-top: 300px;
+  }
+  #textcarrusel {
+    font-size: 30px !important;
   }
 }/*# sourceMappingURL=style.css.map */

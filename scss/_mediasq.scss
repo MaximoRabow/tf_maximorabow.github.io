@@ -36,5 +36,34 @@
 
 
 @media (min-width: 1400px) {
- 
+    .display-6 {
+        font-size: 35px !important;
+    }
+    #h1pagebarrio {
+        font-size: 35px !important;
+    }
+    #h1pagecuatro {
+        font-size: 35px !important;
+    }
+    #h1pagesiete {
+        font-size: 35px !important;
+    }
+    #h1pageexcur {
+        font-size: 35px !important;
+    }
+    .tith2 {
+        font-size: 25px !important;
+    }
+
+}
+
+@media (min-width: 2400px) {
+    #titcarrusel {
+        font-size: 80px !important;
+        padding-top: 300px;
+
+    }
+    #textcarrusel {
+        font-size: 30px !important;
+    }
 }
