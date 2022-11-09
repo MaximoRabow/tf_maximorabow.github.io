@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap");
 header {
-  background-image: url(../aassets/Image/imagen_header1.jpg);
+  background-image: url(../aassets/Image/imagen_header1_mini.jpg);
   height: 100vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   text-align: end;
 }
 header a {
