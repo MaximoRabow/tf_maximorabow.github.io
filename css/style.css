@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap");
 header {
-  background-image: url(../aassets/Image/imagen_header1_mini.jpg);
+  background-image: url(../aassets/Image/imagen_header1.jpg);
   height: 100vh;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: auto;
+  background-size: cover;
   text-align: end;
 }
 header a {
@@ -13,9 +13,6 @@ header a {
 }
 header a:hover {
   opacity: 50%;
-}
-header #dropdown {
-  padding-top: 180%;
 }
 header .material-symbols-sharp {
   color: white;
