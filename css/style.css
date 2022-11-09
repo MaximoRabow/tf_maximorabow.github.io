@@ -8,9 +8,6 @@ header {
   background-size: cover;
   text-align: end;
 }
-header #logo {
-  width: 80px;
-}
 header a {
   font-family: "Roboto", sans-serif;
 }
