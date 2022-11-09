@@ -6,6 +6,9 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   text-align: end;
 }
 header a {
@@ -259,6 +262,9 @@ main #lista {
   .tith2 {
     font-size: 25px !important;
   }
+  li {
+    margin-left: 40px !important;
+  }
 }
 @media (min-width: 2400px) {
   #logo {
@@ -275,5 +281,8 @@ main #lista {
   }
   #textcarrusel {
     font-size: 30px !important;
+  }
+  li {
+    margin-left: 40px !important;
   }
 }/*# sourceMappingURL=style.css.map */
