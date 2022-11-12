@@ -8,9 +8,6 @@ header {
   background-size: cover;
   text-align: end;
 }
-header #botondesplegable {
-  margin-top: -20px;
-}
 header a {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
