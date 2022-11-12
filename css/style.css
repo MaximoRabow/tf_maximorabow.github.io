@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap");
 header {
-  background-image: url(../aassets/Image/imagen_header1.jpg);
+  background-image: url(../aassets/Image/imagen_header1webp.webp);
   height: 100vh;
   background-position: center center;
   background-repeat: no-repeat;
@@ -8,11 +8,16 @@ header {
   background-size: cover;
   text-align: end;
 }
+header #botondesplegable {
+  margin-top: -20px;
+}
 header a {
   font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 header a:hover {
   opacity: 50%;
+  font-weight: bold;
 }
 header .material-symbols-sharp {
   color: white;
