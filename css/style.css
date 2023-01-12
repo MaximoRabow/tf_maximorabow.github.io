@@ -27,126 +27,158 @@ header .material-symbols-sharp {
 main {
   background-color: whitesmoke;
 }
-main .display-6 {
+
+#btnbuscar {
+  border-radius: 5px;
+}
+
+.input {
+  border-radius: 5px;
+}
+
+.display-6 {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
 }
-main .card-title {
+
+.card-title {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
 }
-main .card-text {
+
+.card-text {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
 }
-main #titcarrusel {
+
+#titcarrusel {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
 }
-main #textcarrusel {
+
+#textcarrusel {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
 }
-main .btn {
+
+.btn {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-size: 10px;
 }
-main #titgaleria {
+
+#titgaleria {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
 }
-main #txtgaleria {
+
+#txtgaleria {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
 }
-main #stgaleria {
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-  font-size: 10px;
-}
-main #stgaleria1 {
+
+#stgaleria {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-size: 10px;
 }
-main #stgaleria2 {
+
+#stgaleria1 {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-size: 10px;
 }
-main #stgaleria3 {
+
+#stgaleria2 {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-size: 10px;
 }
-main #stgaleria4 {
+
+#stgaleria3 {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-size: 10px;
 }
-main #stgaleria5 {
+
+#stgaleria4 {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-size: 10px;
 }
-main .imgfotos {
+
+#stgaleria5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-size: 10px;
+}
+
+.imgfotos {
   width: 100%;
   padding: 10px;
   border-radius: 20px;
 }
-main .imgfotos:hover {
+.imgfotos:hover {
   border: 5px solid whitesmoke;
 }
-main #h1pagebarrio {
+
+#h1pagebarrio {
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
   padding-top: 15px;
 }
-main #h1pagecuatro {
+
+#h1pagecuatro {
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
   padding-top: 15px;
 }
-main #h1pagesiete {
+
+#h1pagesiete {
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
   padding-top: 15px;
 }
-main #h1pageexcur {
+
+#h1pageexcur {
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
   padding-top: 15px;
 }
-main #imgcuatro {
+
+#imgcuatro {
   width: 90%;
   border-radius: 20px;
 }
-main .tith2 {
+
+.tith2 {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
   margin-top: 15px;
 }
-main .tith5 {
+
+.tith5 {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
 }
-main .parrafo {
+
+.parrafo {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   padding-left: 10%;
   padding-right: 10%;
 }
-main #lista {
+
+#lista {
   font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
   font-size: 12px;
@@ -281,4 +313,4 @@ main #lista {
   li {
     margin-left: 40px !important;
   }
-}/*# sourceMappingURL=style.css.map */
+}
