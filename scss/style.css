@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap");
+header {
+  background-image: url(../aassets/Image/imagen_header1webp.webp);
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: end;
+}
+header a {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+header a:hover {
+  opacity: 50%;
+  font-weight: bold;
+}
+header .material-symbols-sharp {
+  color: white;
+}
+
+.body {
+  background-color: whitesmoke;
+}
+
+main {
+  background-color: whitesmoke;
+}
+
+#btnbuscar {
+  border-radius: 5px;
+}
+
+.input {
+  border-radius: 5px;
+}
+
+.display-6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.card-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+#titcarrusel {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+#textcarrusel {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-size: 10px;
+}
+
+#titgaleria {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+#txtgaleria {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+#stgaleria {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-size: 10px;
+}
+
+#stgaleria1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-size: 10px;
+}
+
+#stgaleria2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-size: 10px;
+}
+
+#stgaleria3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-size: 10px;
+}
+
+#stgaleria4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-size: 10px;
+}
+
+#stgaleria5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-size: 10px;
+}
+
+.imgfotos {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+.imgfotos:hover {
+  border: 5px solid whitesmoke;
+}
+
+#h1pagebarrio {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+#h1pagecuatro {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+#h1pagesiete {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+#h1pageexcur {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+#imgcuatro {
+  width: 90%;
+  border-radius: 20px;
+}
+
+.tith2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.tith5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+
+.parrafo {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#lista {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-size: 12px;
+  color: gray;
+}
+
+.btn {
+  color: white !important;
+  border: none !important;
+}
+
+.copy {
+  font-size: 12px;
+}
+
+@media (min-width: 320px) {
+  #logo {
+    width: 90px !important;
+    margin-top: -30px !important;
+  }
+  .navbar-toggler {
+    margin-top: -35px !important;
+  }
+  #dropdown {
+    padding-top: 130% !important;
+  }
+}
+@media (min-width: 375px) {
+  #dropdown {
+    padding-top: 120% !important;
+  }
+}
+@media (min-width: 425px) {
+  #dropdown {
+    padding-top: 110% !important;
+  }
+}
+@media (min-width: 768px) {
+  #logo {
+    width: 150px !important;
+    margin-top: -40px !important;
+  }
+  .navbar-toggler {
+    margin-top: -55px !important;
+  }
+  #dropdown {
+    padding-top: 70% !important;
+  }
+}
+@media (min-width: 992px) {
+  #logo {
+    width: 150px !important;
+    margin-top: -30px !important;
+  }
+  .navbar-nav {
+    margin-top: -60px !important;
+    margin-right: 10px !important;
+  }
+  #dropdown {
+    padding-top: 55% !important;
+  }
+  #titcarrusel {
+    font-size: 35px !important;
+    padding-top: 60px;
+  }
+  #textcarrusel {
+    font-size: 15px !important;
+  }
+}
+@media (min-width: 1200px) {
+  #dropdown {
+    padding-top: 35% !important;
+  }
+  #titcarrusel {
+    font-size: 55px !important;
+    padding-top: 120px;
+  }
+  #textcarrusel {
+    font-size: 20px !important;
+  }
+  .btn {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1400px) {
+  #logo {
+    width: 200px !important;
+    margin-top: -70px !important;
+  }
+  .navbar-nav {
+    margin-top: -80px !important;
+    margin-right: 10px !important;
+  }
+  .display-6 {
+    font-size: 35px !important;
+  }
+  #h1pagebarrio {
+    font-size: 35px !important;
+  }
+  #h1pagecuatro {
+    font-size: 35px !important;
+  }
+  #h1pagesiete {
+    font-size: 35px !important;
+  }
+  #h1pageexcur {
+    font-size: 35px !important;
+  }
+  .tith2 {
+    font-size: 25px !important;
+  }
+  li {
+    margin-left: 40px !important;
+  }
+}
+@media (min-width: 2400px) {
+  #logo {
+    width: 250px !important;
+    margin-top: -80px !important;
+  }
+  .navbar-nav {
+    margin-top: -80px !important;
+    margin-right: 20px !important;
+  }
+  #titcarrusel {
+    font-size: 80px !important;
+    padding-top: 300px;
+  }
+  #textcarrusel {
+    font-size: 30px !important;
+  }
+  li {
+    margin-left: 40px !important;
+  }
+}
