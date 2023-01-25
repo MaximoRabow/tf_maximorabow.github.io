@@ -1,5 +1,7 @@
 
 const btnBuscar = document.getElementById ('btnbuscar');
+const ingreso = parseInt (document.getElementById ("ingreso").value);
+const salida = parseInt (document.getElementById ("salida").value);
 
 class Pasajero {
     constructor (ciudad, ingreso, salida, huespedes, habitacion) {
@@ -20,11 +22,15 @@ btnBuscar.addEventListener ("click", (e) => {
     const huespedes = document.getElementById ("huespedes").value;
     const habitacion = document.getElementById ("habitacion").value;
     
-
     const newPasajero = new Pasajero (ciudad, ingreso, salida, huespedes, habitacion);
     nuevPasajeros.push (newPasajero);
     console.log (newPasajero)
 })
+
+const diasAlojamiento = () => {
+    const result = parseInt (salida - ingreso) - 1
+    console.log (diasAlojamiento)
+}
 
 
 
