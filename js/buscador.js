@@ -28,10 +28,10 @@ btnBuscar.addEventListener ("click", (e) => {
 })
 
 const diasAlojamiento = () => {
-    const result = parseInt (salida - ingreso) - 1
-    console.log (diasAlojamiento)
+    const result = parseInt (nuevPasajeros.salida --- nuevPasajeros.ingreso) - 1
+    
 }
 
-
+console.log (diasAlojamiento.value)
 
 
