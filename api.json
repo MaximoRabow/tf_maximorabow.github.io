@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "titulo": "El tour de contrastes de Nueva York",
+        "detalle": "Haciendo este Tour de Contrastes te llevará sólo una mañana conocer lugares muy diversos de Nueva York que tardarías en verlos por tu cuenta un día o dos por lo que ahorrarás tiempo.",
+        "precio": 50,
+        "imagen": "https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_1480/v1611136518/post_images/new-york-1/Brooklyn/Crossing-Brooklyn-Bridge.jpg"
+        
+    },
+
+    {
+        "id": 2,
+        "titulo": "El tour en helicóptero",
+        "detalle": "Tanto si es tu primera vez en la ciudad como si eres un asiduo, este tour a vista de pájaro te regalará las mejores vistas de la ciudad además de una buena dosis de adrenalina. ¡Te aseguro que no lo olvidarás jamás!",
+        "precio": 150,
+        "imagen": "https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_1480/v1611567577/post_images/new-york-1/Helicopter-Manhattan/helicopter-financial-district-views.jpg"
+    },
+
+    {
+        "id": 3,
+        "titulo": "Recorre el Bronx, Queens y Brooklyn en autobús",
+        "detalle": "Me parece una buena oportunidad para conocer la ciudad y los mejores barrios de Nueva York si quieres disfrutarla como un neoyorquino más, con la ventaja de estar acompañado por un guía profesional que te contará las curiosidades de cada barrio en español, lo cual es magnífico si no dominas bien el inglés. Y con un plus: te mostrará partes de Nueva York que muchos turistas nunca exploran.",
+        "precio": 25,
+        "imagen": "https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_1480/v1611593207/post_images/new-york-1/nyc-graffiti-walking.jpg"
+    },
+
+    {
+        "id": 4,
+        "titulo": "Descubre el alma de Nueva York con un tour de Harlem y una misa góspel",
+        "detalle": "Un barrio con tanta cultura y contraste merece la pena descubrirlo junto a un guía que te adentre en las costumbres y la forma de vida de sus vecinos. Te llevará a descubrir los enclaves más emblemáticos de la zona y te dará las mejores recomendaciones si quieres seguir explorando por tu cuenta.",
+        "precio": 45,
+        "imagen": "https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_1480/v1612260399/post_images/new-york-1/Chinatown/jean-philippe-delberghe-harlem.jpg"
+    },
+
+    {
+        "id": 5,
+        "titulo": "Saluda a la Estatua de la Libertad y visita la Isla de Ellis",
+        "detalle": "Además de conocer de cerca el símbolo de la ciudad, fíjate bien porque durante la visita vas a tener unas vistas increíbles desde la Estatua de la Libertad.",
+        "precio": 65,
+        "imagen": "https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_1480/v1610621391/post_images/new-york-1/Statue-Liberty-sunset-from-ferry.jpg"
+    },
+
+    {
+        "id": 6,
+        "titulo": "Descubre las localizaciones de películas en un tour de cine",
+        "detalle": "Uno de los principales factores que hace que Nueva York sea Nueva York es su atractivo como escenario de miles de películas. Saliendo a recorrer la ciudad para buscar sus enclaves más míticos te obligarás a callejear y a descubrir así los lugares secretos de Nueva York.",
+        "precio": 65,
+        "imagen": "https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_1480/v1612261863/post_images/new-york-1/Friends-apartment-wikimedia.jpg"
+    }
+
+]
