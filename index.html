@@ -160,6 +160,8 @@
                       </div>
                 </div>
             </div>
+            
+            <!--Etiquetas templete-->
 
             <template id="templete-footer">
                 <th scope="row" colspan="2">Total Productos</th>
@@ -178,12 +180,8 @@
                   <th scope="row">id</th>
                   <td>1</td>
                   <td>
-                    <button class="btn btn-info btn-sm">
-                      +
-                    </button>
-                    <button class="btn btn-danger btn-sm">
-                      -
-                    </button>
+                    <button class="btn btn-info btn-sm">+</button>
+                    <button class="btn btn-danger btn-sm">-</button>
                   </td>
                   <td>$<span>100</span></td>
 
@@ -191,14 +189,14 @@
             </template>
 
 
-            <templete id="templeteprod">
+            <templete class="row" id="templeteprod">
                 <div class="col-lg-3 m-2">
                   <div class="card">
                       <img src="..." class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Excursion</h5>
                         <span></span>
-                        <p class="card-text">$<span>5000</span></p>
+                        <p class="card-text display-6">$<span>5000</span></p>
                         <button class="btn btn-primary">Comprar</button>
                       </div>
                     </div>

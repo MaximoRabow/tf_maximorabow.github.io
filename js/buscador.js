@@ -58,6 +58,13 @@ const productosCarrito = () => {
 
     items.innerHTML = ''
 
+    if (Object.keys (carrito).length === 0) {
+        foot.innerHTML = `
+        <th scope='row' colspan='5'>Carrito vacio</th>`
+
+        return
+    }
+
     const templete = document.querySelector ('#templete-carrito').content
     const fragment = document.createDocumentFragment ()
     Object.values (carrito).forEach ( producto => {
@@ -72,17 +79,34 @@ const productosCarrito = () => {
 
     items.appendChild (fragment)
 
-    footer ()
-    accionbotones ()
+    impFooter ();
+    accionbotones ();
 }
 
-const footer = document.querySelector ('#foot-carrito')
-const impfooter = () => {
-    const templete = document.querySelector ('#templete-footer')
+const foot = document.querySelector ('#foot-carrito')
+
+const impFooter = () => {
+
+    foot.innerHTML = ''
+    const templete = document.querySelector ('#templete-footer').content
     const fragment = document.createDocumentFragment ()
 
     const numCantidad = Object.values (carrito).reduce ((acc, {cantidad}) => acc = cantidad, 0)
     const precioTotal = Object.values (carrito).reduce ((acc, {cantidad, precio}) => acc + cantidad * precio, 0)
+
+    templete.querySelectorAll ('td')[0].textContent = numCantidad
+    templete.querySelector ('span').textContent = precioTotal
+
+    const clonar = templete.cloneNode (true)
+    fragment.appendChild (clonar)
+
+    foot.appendChild (fragment)
+
+    const boton = document.querySelector ('#vaciar-carrito')
+    boton.addEventListener ('click', () => {
+        carrito = {}
+        productosCarrito ()
+    })
 }
 
 const accionbotones = () => {
