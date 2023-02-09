@@ -108,8 +108,3 @@ const impFooter = () => {
         productosCarrito ()
     })
 }
-
-const accionbotones = () => {
-
-    
-}
